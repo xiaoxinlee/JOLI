@@ -1,0 +1,251 @@
+nav .nav2{
+    height: 117px;
+}
+main{
+    margin-top: 50px;
+    color: #666;
+}
+main .shc-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main .shc-head .shc-logo{
+    width: 200px;
+    height: 45px;
+    font-size: 30px;
+    color: #66ded4;
+    line-height: 45px;
+    padding-left: 50px;
+    background: url("../img/shoppingcart.png") no-repeat;
+    background-size: 45px;
+}
+main .shc-head .shc-progress{
+    width: 700px;
+    height: 45px;
+    padding-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    background: url("../img/progress.jpg") no-repeat 10px 0;
+}
+main .shc-tips{
+    width: 700px;
+    text-align: center;
+    margin: 75px auto 0;
+}
+main .shc-content{
+    width: 100%;
+    margin-top: 24px;
+}
+main .shc-content .shc-con-head{
+    width: 100%;
+    height: 74px;
+    line-height: 74px;
+    font-size: 24px;
+    background: #555;
+    display: flex;
+    color: #fff;
+}
+main .shc-content .shc-con-head li{
+    width: 150px;
+    text-align: center;
+}
+main .shc-content .shc-con-head li:nth-child(1){
+    width: 200px;
+    padding-left: 20px;
+    display: flex;
+}
+main .shc-content .shc-con-head li div{
+    margin: 2px 5px 0 0;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+main .shc-content .shc-con-head li div input{
+    width: 20px;
+    height: 20px;
+}
+main .shc-content .shc-con-head li:nth-child(2){
+    width: 350px;
+    padding-left: 50px;
+    text-align: left;
+}
+main .shc-content .shc-con-head li:nth-child(6){
+    width: 200px;
+}
+main .shc-content .shop{
+    width: 100%;
+    height: 54px;
+    line-height:54px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: #f7f7f7;
+}
+main .shc-content .shop .shop-name{
+    display: flex;
+}
+main .shc-content .shop .shop-name div{
+    margin: 2px 5px 0 0;
+}
+main .shc-content .shop .shop-name div input{
+    width: 15px;
+    height: 15px;
+}
+main .shc-content .shop>div:last-child{
+    width: 155px;
+    text-align: center;
+}
+main .shc-content .cart-list{
+    width: 100%;
+    display: flex;
+}
+main .shc-content .cart-list li{
+    width: 150px;
+    height: 210px;
+}
+main .shc-content .cart-list li:nth-child(1){
+    width: 200px;
+    display: flex;
+    padding-left: 20px;
+}
+main .shc-content .cart-list li:nth-child(1) div:nth-child(1){
+    margin-right: 5px;
+    line-height: 210px;
+}
+main .shc-content .cart-list li:nth-child(1) div:nth-child(1) input{
+    width: 15px;
+    height: 15px;
+}
+main .shc-content .cart-list li:nth-child(1) div:nth-child(2) img{
+    width: 160px;
+    height: 160px;
+    margin-top: 25px;
+}
+main .shc-content .cart-list li:nth-child(2){
+    width: 350px;
+    padding-left: 50px;
+    flex-wrap: wrap;
+}
+main .shc-content .cart-list li:nth-child(2) p:nth-child(1),
+main .shc-content .cart-list li:nth-child(2) p:nth-child(2){
+    margin-top: 25px;
+}
+main .shc-content .cart-list li:nth-child(2) p:nth-child(4){
+    margin-top: 40px;
+    color: #66ded4;
+}
+main .shc-content .cart-list li:nth-child(3),
+main .shc-content .cart-list li:nth-child(4),
+main .shc-content .cart-list li:nth-child(5){
+    line-height:150px;
+    text-align: center;
+}
+main .shc-content .cart-list li:nth-child(3){
+    font-size: 20px;
+    color: #f00;
+}
+main .shc-content .cart-list li:nth-child(5){
+    font-size: 24px;
+    color: #f00;
+    font-weight: 600;
+}
+main .shc-content .cart-list li:nth-child(6){
+    padding: 50px 0 0 60px;
+}
+main .shc-content .cart-list li:nth-child(6) p:nth-child(2){
+    margin-top: 30px;
+}
+main .shc-content .shc-cart-foot{
+    width: 100%;
+    height: 140px;
+    background: #f7f7f7;
+    padding-top: 33px;
+}
+main .shc-content .shc-cart-foot .cf-con{
+    width: 100%;
+    height: 74px;
+    line-height: 74px;
+    font-size: 20px;
+    display: flex;
+    background: #dcdcdc;
+    padding-left: 20px;
+    text-align: center;
+}
+main .shc-content .shc-cart-foot .cf-con div{
+    width: 170px;
+}
+main .shc-content .shc-cart-foot .cf-con div:nth-child(1){
+    text-align: left;
+    width: 150px;
+}
+main .shc-content .shc-cart-foot .cf-con input{
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+main .shc-content .shc-cart-foot .cf-con div:nth-child(3) span{
+    color: #f00;
+    padding: 0 5px;
+}
+main .shc-content .shc-cart-foot .cf-con div:nth-child(4) span{
+    color: #f00;
+}
+main .shc-content .shc-cart-foot .cf-con div:nth-child(5){
+    line-height: 26px;
+    margin-top: 10px;
+}
+main .shc-content .shc-cart-foot .cf-con div:nth-child(6){
+    color: #f00;
+    font-size: 24px;
+}
+main .shc-content .shc-cart-foot .cf-con div:nth-child(7){
+    background: #66ded4;
+    color: #fff;
+    font-size:26px;
+    width: 180px;
+    cursor: pointer;
+}
+main .guess{
+    width: 100%;
+    height: 302px;
+}
+main .guess h3{
+    margin: 0;
+    padding:  10px 20px;
+    color: #66ded4;
+}
+main .guess ul{
+    display: flex;
+    justify-content: space-between;
+    border: 1px dashed #ddd;
+}
+main .guess ul li{
+    width: 220px;
+    height: 100%;
+    text-align: center;
+}
+main .guess ul li img{
+    width: 150px;
+    height: 150px;
+}
+main .guess ul li p:nth-child(2){
+    margin-top: 10px;
+}
+main .guess ul li p:nth-child(3){
+    font-size: 16px;
+    color: #f00;
+    margin-top: 5px;
+}
+main .guess ul li p:nth-child(4){
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #fff;
+    background: #66ded4;
+    border-radius: 50px;
+    margin: 5px auto 10px;
+    cursor: pointer;
+}

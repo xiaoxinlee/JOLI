@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>JOLI-sign</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/joliCSS.css">
+    <link rel="stylesheet" href="../css/signCSS.css">
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/signJS.js"></script>
+</head>
+<body>
+<main>
+    <div class="log"></div>
+    <div class="sign-content" id="sign-content">
+        <div class="sign-method">
+            <span style="background-color: #66ded4;color: #fff">手机注册</span>
+            <span>邮箱注册</span>
+        </div>
+        <div class="sign-body">
+            <ul class="list-unstyled text-right">
+                <li id="tel">手机号：</li>
+                <li id="email" style="display: none">邮箱：</li>
+                <li>密码：</li>
+                <li>再次确认密码：</li>
+                <li>验证码：</li>
+                <li id="tel-code">手机验证码：</li>
+            </ul>
+            <div class="sign-input">
+                <input id="tel-inp" type="text" placeholder="13601234567">
+                <input id="email-inp" type="text" placeholder="13601234567@qq.com" style="display: none">
+                <input type="password" class="password">
+                <input type="password">
+                <div class="code">
+                    <input type="text">
+                    <img src="../img/code.jpg" alt="">
+                </div>
+                <div class="tel-code">
+                    <input type="text">
+                    <input type="button" value="获取验证码">
+                </div>
+            </div>
+        </div>
+        <input type="button" value="立即注册" id="sign-inp" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        <div class="check">
+            <input type="checkbox">
+            <a href="javascript:;">用户协议</a>
+        </div>
+        <!--模态框 注册成功-->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">注册成功</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p class="user-name">账号：</p>
+                        <p class="user-password">密码：</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="login.html" class="btn btn-default" data-dismiss="modal">点击返回登录界面</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="foot">
+        <div class="footlist">
+            <ul class="list-unstyled">
+                <li>
+                    <p>会员中心</p>
+                    <a href="javascript:;">会员制度</a>
+                    <a href="javascript:;">会员优惠</a>
+                    <a href="javascript:;">账户管理</a>
+                    <a href="javascript:;">密码管理</a>
+                </li>
+                <li>
+                    <p>购物指南</p>
+                    <a href="javascript:;">发票</a>
+                    <a href="javascript:;">尺码对照</a>
+                    <a href="javascript:;">尺码解读</a>
+                    <a href="javascript:;">商品咨询</a>
+                </li>
+                <li>
+                    <p>支付方式</p>
+                    <a href="javascript:;">在线支付</a>
+                    <a href="javascript:;">货到付款</a>
+                    <a href="javascript:;">分期支付</a>
+                </li>
+                <li>
+                    <p>配送方式</p>
+                    <a href="javascript:;">配送说明</a>
+                    <a href="javascript:;">运费说明</a>
+                    <a href="javascript:;">验货签收</a>
+                    <a href="javascript:;">收货样品</a>
+                </li>
+                <li>
+                    <p>售后服务</p>
+                    <a href="javascript:;">退换货政策</a>
+                    <a href="javascript:;">退换货流程</a>
+                    <a href="javascript:;">投诉与建议</a>
+                    <a href="javascript:;">在线客服</a>
+                </li>
+            </ul>
+        </div>
+        <h2 class="foot-logo">JOLI</h2>
+        <div class="foot-bottom">
+            <span>CopyRight © 2010-2017</span>
+            <span>海南若丽有限公司版权所有</span>
+            <span>经营许可证编号：海B1-20170911</span>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

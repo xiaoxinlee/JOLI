@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main a{
+    display: block;
+}
+main a:hover{
+    text-decoration: none;
+}
+main .address{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    display: flex;
+}
+main .address a{
+    color: #333;
+}
+main .adidas-head{
+    width: 100%;
+}
+main .adidas{
+    width: 100%;
+    height: 668px;
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main .adidas li{
+    width: 285px;
+    height: 324px;
+    line-height: 30px;
+    font-size: 28px;
+    background: #f5f5f5;
+}
+main .adidas .bot{
+    margin-bottom: 20px;
+}
+main .adidas .adidas-b{
+    width: 590px;
+}
+main .adidas .adidas-b img{
+    width: 590px;
+    height: 214px;
+}
+main .adidas .adidas-b .series{
+    width: 100%;
+    height: 110px;
+    line-height: 110px;
+    color: #fff;
+}
+main .adidas li img{
+    width: 200px;
+    height: 200px;
+}
+main .adidas li .title{
+    font-size: 16px;
+    margin-top: 10px;
+}
+main .adidas li .price{
+    color: #f00;
+    margin-top: 5px;
+}
+main .adidas li .buy{
+    font-size: 18px;
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    background: #66ded4;
+    margin: 10px auto;
+}
+main .adidas .more{
+    height: 235px;
+    line-height: 35px;
+}
+main .adidas .more a{
+    margin-top: 82px;
+    color: #fff;
+}
+main .ban{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+main .ban a{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+    color: #000;
+}
+main .ban a img{
+    width: 500px;
+    height: 256px;
+}
+main .ban a h2{
+    height: 44px;
+    line-height: 44px;
+    font-weight: 900;
+    text-align: center;
+}

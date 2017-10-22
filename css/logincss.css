@@ -1,0 +1,187 @@
+main .login{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 32px 0 10px;
+}
+main .login .login-left{
+    width: 722px;
+    height: 352px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    margin-right: 56px;
+    margin-top: 52px;
+    display: flex;
+}
+main .login .login-left .adpic{
+    width: 382px;
+    height: 289px;
+    margin: 42px 20px 0 42px;
+}
+main .login .login-left .adword{
+    width: 220px;
+    height: 289px;
+    margin-top: 42px;
+    text-align: center;
+}
+main .login .login-left .adword img{
+    width: 77px;
+    height: 76px;
+    display: block;
+    margin: 25px auto 0;
+}
+main .login .login-left .adword p:nth-of-type(1){
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+main .login .login-left .adword p:nth-of-type(2){
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666;
+}
+main .login .login-content{
+    width: 381px;
+    height: 458px;
+    border: 1px solid #ebebeb;
+}
+main .login .login-content .lo-co{
+    margin: 20px 40px;
+}
+main .login .login-content .lo-co p:nth-of-type(1){
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+main .login .login-content .lo-co p:nth-of-type(2){
+    background: url("../img/user.png") no-repeat 15px 10px;
+    margin-top: 36px;
+}
+main .login .login-content .lo-co p:nth-of-type(3){
+    background: url("../img/password.png") no-repeat 15px 10px;
+    margin-top: 16px;
+}
+main .login .login-content .lo-co p.inp{
+    width: 302px;
+    height: 43px;
+    border: 1px solid #ebebeb;
+    background-size: 22px 22px;
+    position: relative;
+}
+main .login .login-content .lo-co p.inp:after{
+    content: '';
+    display: block;
+    width: 2px;
+    height: 41px;
+    background: #ebebeb;
+    position: absolute;
+    top: 1px;
+    left: 55px;
+}
+main .login .login-content .lo-co p input{
+    width: 242px;
+    height: 41px;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+}
+main .login .login-content .lo-co p input::placeholder{
+    color: #999;
+}
+main .login .login-content .lo-co input[type=submit]{
+    outline: none;
+    border: none;
+    width: 303px;
+    height: 43px;
+    background: #66ded4;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+main .login .login-content .lo-co .login-tips{
+    width: 303px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+main .login .login-content .lo-co .login-tips a{
+    color: #999;
+}
+main .login .login-content .lo-co .other{
+    color: #666;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    font-size: 16px;
+}
+main .login .login-content .lo-co .other:before{
+    content: '';
+    display: block;
+    width: 90px;
+    height: 1px;
+    background: #ebebeb;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+main .login .login-content .lo-co .other:after{
+    content: '';
+    display: block;
+    width: 90px;
+    height: 1px;
+    background: #ddd;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+main .login .login-content .lo-co .method{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+main .login .login-content .lo-co .method a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    color: #666;
+}
+main .login .login-content .lo-co .method a:nth-child(2){
+    margin: 0 10px;
+}
+main .login .login-content .lo-co .method a img{
+    width: 30px;
+    height: 30px;
+}
+main .login .login-content .lo-co .method a span{
+    display: block;
+    margin-top: 2px;
+}
+main .service{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+main .service span{
+    display: block;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 60px;
+}
+main .service span.ensure{
+    background: url("../img/ensure.png") no-repeat;
+    background-size: 55px 55px;
+}
+main .service span.days{
+    background: url("../img/7dsays.png") no-repeat;
+    background-size: 55px 55px;
+}
+main .service span.sales{
+    background: url("../img/sales.png") no-repeat;
+    background-size: 55px 55px;
+}

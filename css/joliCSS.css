@@ -1,0 +1,214 @@
+body,nav,div,span,a,img,main,footer,ul,li,p,h2,h5{
+    margin: 0;
+    padding: 0;
+}
+nav .nav1{
+    width: 100%;
+    height: 30px;
+    background: #707070;
+}
+nav .nav1 .nav-content{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+}
+nav .nav1 .nav-content .nav1-content-left{
+    background: url("../img/horn.png") no-repeat 127px -3px;
+    background-size: 25px 25px;
+}
+nav .nav1 .nav-content .nav1-content-left span{
+    color:#fff;
+    font-size: 13px;
+    margin-right: 24px;
+}
+nav .nav1 .nav-content .nav1-content-left a{
+    color: #66DED4;
+    margin-left: 25px;
+    text-decoration: underline;
+}
+nav .nav1 .nav-content .nav1-content-right a{
+    color: #fff;
+}
+nav .nav1 .nav-content .nav1-content-right a:first-child{
+    margin-right: 20px;
+}
+nav .nav1 .nav-content .nav1-content-right a:hover{
+    color: #66DED4;
+}
+nav .nav1 .nav-content .nav1-content-right span{
+    width: 2px;
+    height: 14px;
+    border: 1px solid #fff;
+    margin: 0 14px;
+}
+nav .nav2{
+    width: 100%;
+    height: 160px;
+    background: #061222;
+}
+nav .nav2 .head{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+}
+nav .nav2 .head .log{
+    width: 146px;
+    height: 61px;
+    background: url("../img/joli-logo.gif") no-repeat;
+    margin: 0 auto 36px;
+}
+nav .nav2 .head .sh{
+    width: 220px;
+    position: absolute;
+    top: 38px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+nav .nav2 .head .sh .search{
+    height: 22px;
+    width: 175px;
+    position: relative;
+    display: flex;
+}
+nav .nav2 .head .sh .search #inp{
+    width: 150px;
+    height: 22px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #66DED4;
+    background: none;
+    color: #fff;
+}
+nav .nav2 .head .sh .search #inp::placeholder{
+    color: #eee;
+}
+nav .nav2 .head .sh .search #sub{
+    width: 22px;
+    height: 22px;
+    background: url("../img/search.png") no-repeat;
+    background-size: cover;
+    outline: none;
+    border: none;
+    padding: 0;
+}
+nav .nav2 .head .sh .search #uls{
+    width: 150px;
+    position: absolute;
+    top: 22px;
+    left: 0;
+    background: rgba(0,0,0,.5);
+    list-style: none;
+}
+nav .nav2 .head .sh .search #uls li{
+    height: 30px;
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+nav .nav2 .head .sh .search #uls li a{
+    display: block;
+    width: 150px;
+    height: 100%;
+    line-height: 30px;
+    color: #66ded4;
+    text-decoration: none;
+    padding: 0 8px;
+}
+nav .nav2 .head .sh .search #uls>li:hover a{
+    background-color: rgba(255,255,255,.5);
+}
+nav .nav2 .head .sh .shopping-cart{
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: url("../img/shoppingcart.png") no-repeat;
+    background-size: 22px 22px;
+    position: relative;
+}
+nav .nav2 .head .sh .shopping-cart span{
+    width: 18px;
+    height: 18px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 50%;
+    background: #f00;
+    color: #fff;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+}
+nav .nav2 .head .navlist{
+    margin-left: 95px;
+}
+nav .nav2 .head .navlist a{
+    font-size: 17px;
+    color: #fff;
+    margin-right: 46px;
+}
+nav .nav2 .head .navlist a:hover{
+    color: #66DED4;
+    text-decoration: none;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #66DED4;
+}
+main{
+    width: 1200px;
+    margin: 0 auto 40px;
+}
+footer{
+    width: 100%;
+    height: 240px;
+    background: #E9E9E9;
+}
+footer .foot{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 46px;
+}
+footer .foot .footlist{
+    width: 100%;
+    height: 100px;
+}
+footer .foot .footlist ul{
+    display: flex;
+    justify-content: space-around;
+}
+footer .foot .footlist ul li p{
+    font-weight: 700;
+    color: #666;
+    margin-bottom: 3px;
+}
+footer .foot .footlist ul li a{
+    font-size: 12px;
+    line-height: 16px;
+    color: #666;
+    display: block;
+    margin-bottom: 3px;
+}
+footer .foot .footlist ul li a:hover{
+    color: #66DED4;
+    text-decoration: none;
+}
+footer .foot h2.foot-logo{
+    font-size:24px;
+    width: 80px;
+    text-align: center;
+    margin: 20px auto 0;
+}
+footer .foot .foot-bottom{
+    width: 490px;
+    font-size: 12px;
+    color: #999;
+    margin: 14px auto 0;
+}
+footer .foot .foot-bottom span{
+    margin-right: 10px;
+}

@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+main .brand{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+main .brand a{
+    display: block;
+    width: 280px;
+    height: 280px;
+}
+main h3{
+    color: #66DED4;
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    margin: 50px 0;
+}
+main h3:before{
+    content: '';
+    display: block;
+    width: 422px;
+    height: 1px;
+    background: #999;
+    position: absolute;
+    top: 12px;
+    left: 110px;
+}
+main h3:after{
+    content: '';
+    display: block;
+    width: 422px;
+    height: 1px;
+    background: #999;
+    position: absolute;
+    top: 12px;
+    right: 110px;
+}
+main a:hover{
+    text-decoration: none;
+}
+main .newpro #myCarousel{
+    overflow: hidden;
+    position: relative;
+    width: 1200px;
+    height: 359px;
+}
+main .newpro #myCarousel .carousel-inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3600px;
+    display: flex;
+}
+main .newpro #myCarousel .carousel-inner .item{
+    width: 1200px;
+    height: 359px;
+    display: flex;
+    justify-content: space-between;
+}
+main .newpro #myCarousel .carousel-inner .item img{
+    width: 349px;
+    height: 359px;
+    border: 1px solid #ddd;
+}
+main .newpro #myCarousel>a{
+    background: url("../img/left.png") no-repeat;
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-size: 50px 50px;
+    position: absolute;
+}
+main .newpro #myCarousel .left{
+    top: 155px;
+    left: 0;
+}
+main .newpro #myCarousel .right{
+    top: 155px;
+    right: 0;
+    transform: rotateY(180deg);
+}
+main .recommend .recommend-con{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main .recommend .recommend-con .recommend-left{
+    width: 374px;
+    height: 470px;
+}
+main .recommend .recommend-con .recommend-left .recommend-left-big img{
+    width: 374px;
+    height: 375px;
+}
+main .recommend .recommend-con .recommend-left .recommend-left-small{
+    height: 95px;
+    background: #66DED4;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+main .recommend .recommend-con .recommend-left .recommend-left-small img{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+main .recommend .recommend-con .recommend-right{
+    width: 794px;
+    height: 470px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main .recommend .recommend-con .recommend-right li{
+    width: 237px;
+    height: 220px;
+    border: 3px solid #cfcfcd;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #666;
+}
+main .recommend .recommend-con .recommend-right li p{
+    margin-top: 40px;
+}
+main .recommend .recommend-con .recommend-right li span{
+    display: block;
+}
+main .recommend .recommend-con .recommend-right li a{
+    display: block;
+    width: 231px;
+    height: 214px;
+    color: #666;
+    font-size:16px;
+}
+main .recommend .recommend-con .recommend-right li a img{
+    width: 231px;
+    height: 214px;
+}
+main .menwear .menwear-top,main .womenwear .womenwear-top,
+main .shoes .shoes-top,main .bag .bag-top,
+main .accessory .accessory-top{
+    width: 100%;
+    height: 234px;
+    position: relative;
+}
+main .menwear .menwear-top{
+    background: #ffead9 url("../img/nz.jpg") no-repeat 102px 0;
+}
+main .womenwear .womenwear-top{
+    background: #e0fef2 url("../img/nvz.jpg") no-repeat 102px 0;
+}
+main .shoes .shoes-top{
+    background: #fff2e1 url("../img/xz.jpg") no-repeat 102px 0;
+}
+main .bag .bag-top{
+    background: #fde0ff url("../img/bb.jpg") no-repeat 102px 0;
+}
+main .accessory .accessory-top{
+    background: #f4f4f4 url("../img/ps.jpg") no-repeat 102px 0;
+}
+main .menwear .menwear-top .men-choice,main .womenwear .womenwear-top .women-choice,
+main .shoes .shoes-top .shoes-choice,main .bag .bag-top .bag-choice,
+main .accessory .accessory-top .accessory-choice{
+    width: 538px;
+    height: 197px;
+    background: #fff;
+    position: absolute;
+    top: 37px;
+    right: 72px;
+    text-align: center;
+    padding-top: 20px;
+}
+main .menwear .menwear-top .men-choice p,main .womenwear .womenwear-top .women-choice p,
+main .shoes .shoes-top .shoes-choice p,main .bag .bag-top .bag-choice p,
+main .accessory .accessory-top .accessory-choice p{
+    font-size: 55px;
+    line-height: 100px;
+    color: #6a513d;
+    font-weight: 900;
+}
+main .menwear .menwear-top .men-choice a,main .womenwear .womenwear-top .women-choice a,
+main .shoes .shoes-top .shoes-choice a,main .bag .bag-top .bag-choice a,
+main .accessory .accessory-top .accessory-choice a{
+    display: block;
+    width: 120px;
+    font-size:24px;
+    font-weight:600;
+    color: #3e1415;
+    border-bottom: 2px solid #3e1415;
+    position: absolute;
+    top: 120px;
+    left: 220px;
+}
+main .menwear .men-goods,main .womenwear .women-goods,
+main .shoes .shoes-goods,main .bag .bag-goods,
+main .accessory .acc-goods{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+main .menwear .men-goods li,main .womenwear .women-goods li,
+main .shoes .shoes-goods li,main .bag .bag-goods li,
+main .accessory .acc-goods li{
+    width: 284px;
+    height: 290px;
+    position: relative;
+    text-align: center;
+}
+main .menwear .men-goods li:nth-child(1){
+    background: #ffead9 url(../img/nz1.jpg) no-repeat;
+    background-size: contain;
+}
+main .menwear .men-goods li:nth-child(2){
+    background: #ffead9 url(../img/nz2.jpg) no-repeat;
+    background-size: contain;
+}
+main .menwear .men-goods li:nth-child(3){
+    background: #ffead9 url(../img/nz3.jpg) no-repeat;
+    background-size: contain;
+}
+main .menwear .men-goods li:nth-child(4){
+    background: #ffead9 url(../img/nz4.jpg) no-repeat;
+    background-size: contain;
+}
+main .womenwear .women-goods li:nth-child(1){
+    background: #e0fef2 url("../img/nvz1.jpg") no-repeat;
+    background-size: contain;
+}
+main .womenwear .women-goods li:nth-child(2){
+    background: #e0fef2 url("../img/nvz2.jpg") no-repeat;
+    background-size: contain;
+}
+main .womenwear .women-goods li:nth-child(3){
+    background: #e0fef2 url("../img/nvz3.jpg") no-repeat;
+    background-size: contain;
+}
+main .womenwear .women-goods li:nth-child(4){
+    background: #e0fef2 url("../img/nvz4.jpg") no-repeat;
+    background-size: contain;
+}
+main .shoes .shoes-goods li{
+    background: #fff2e1;
+    display: flex;
+    flex-wrap: wrap;
+}
+main .bag .bag-goods li{
+    background: #fde0ff;
+    display: flex;
+    flex-wrap: wrap;
+}
+main .accessory .acc-goods li{
+    background: #f4f4f4;
+}
+main .menwear .men-goods li p,
+main .womenwear .women-goods li p{
+    width: 18px;
+    height: 145px;
+    font-size: 18px;
+    position: absolute;
+    top: 40px;
+    right: 25px;
+}
+main .menwear .men-goods li a,
+main .womenwear .women-goods li a{
+    display: block;
+    width: 20px;
+    font-size: 12px;
+    color: #f00;
+    position: absolute;
+    bottom: 20px;
+    right: 22px;
+    border: 1px solid #65ddd3;
+}
+main .shoes .shoes-goods li .shoes-big {
+    width: 100%;
+    height: 138px;
+}
+main .shoes .shoes-goods li:nth-child(1) .shoes-big{
+    background: url("../img/TB1C.jpg") no-repeat 0 -100px;
+    background-size: 284px;
+}
+main .shoes .shoes-goods li:nth-child(2) .shoes-big{
+    background: url("../img/TB1I.jpg") no-repeat 0 -100px;
+    background-size: 284px;
+}
+main .shoes .shoes-goods li:nth-child(3) .shoes-big{
+    background: url("../img/TB2Ay.jpg") no-repeat 0 -105px;
+    background-size: 284px;
+}
+main .shoes .shoes-goods li:nth-child(4) .shoes-big{
+    background: url("../img/TB1s.jpg") no-repeat 0 -145px;
+    background-size: 284px;
+}
+main .shoes .shoes-goods li .shoes-small {
+    width: 108px;
+    height: 152px;
+}
+main .shoes .shoes-goods li:nth-child(1) .shoes-small{
+    background: url("../img/TB2Cw.jpg") no-repeat -23px 0;
+    background-size: 152px;
+}
+main .shoes .shoes-goods li:nth-child(2) .shoes-small{
+    background: url("../img/TB2y.jpg") no-repeat -23px 0;
+    background-size: 152px;
+}
+main .shoes .shoes-goods li:nth-child(3) .shoes-small{
+    background: url("../img/TB2G.jpg") no-repeat -23px 0;
+    background-size: 152px;
+}
+main .shoes .shoes-goods li:nth-child(4) .shoes-small{
+    background: url("../img/TB1q.jpg") no-repeat -23px 0;
+    background-size: 152px;
+}
+main .shoes .shoes-goods li:nth-child(1) .shoes-intro,
+main .shoes .shoes-goods li:nth-child(2) .shoes-intro{
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+}
+main .shoes .shoes-goods li:nth-child(3) .shoes-intro,
+main .shoes .shoes-goods li:nth-child(4) .shoes-intro{
+    padding: 30px 36px 0 40px;
+}
+main .shoes .shoes-goods li .shoes-intro p{
+    font-size: 20px;
+    line-height: 30px;
+}
+main .shoes .shoes-goods li .shoes-intro p:nth-child(2){
+    color: #f00;
+}
+main .shoes .shoes-goods li .shoes-intro p span{
+    font-size: 24px;
+    margin-left: 5px;
+}
+main .shoes .shoes-goods li .shoes-intro a{
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    color: #f00;
+    border: 1px solid #65ddd3;
+    margin-top: 8px;
+}
+main .bag .bag-goods div, main .bag .bag-goods img{
+    width: 142px;
+    height: 145px;
+}
+main .bag .bag-goods .bag-intro{
+    padding-top: 30px;
+}
+main .bag .bag-goods .bag-intro p{
+    font-size: 20px;
+    line-height: 28px;
+}
+main .bag .bag-goods .bag-intro p:nth-child(1){
+    font-size: 16px;
+    line-height: 20px;
+}
+main .bag .bag-goods .bag-intro p:nth-child(3){
+    color: #f00;
+}
+main .bag .bag-goods .bag-buy a{
+    color: #66ded4;
+    font-size: 20px;
+    line-height: 145px;
+}
+main .accessory .acc-goods li a{
+    display: block;
+    width: 100%;
+    height: 260px;
+    color: #666;
+    font-size: 16px;
+}
+main .accessory .acc-goods li:nth-child(1) a{
+    background: url("../img/TB1L.jpg") no-repeat center;
+    background-size: contain;
+}
+main .accessory .acc-goods li:nth-child(2) a{
+    background: url("../img/TB1sK.jpg") no-repeat center;
+    background-size: contain;
+}
+main .accessory .acc-goods li:nth-child(3) a{
+    background: url("../img/TB1z.jpg") no-repeat center;
+    background-size: contain;
+}
+main .accessory .acc-goods li:nth-child(4) a{
+    background: url("../img/TB1B.jpg") no-repeat center;
+    background-size: contain;
+}
+main .accessory .acc-goods li span{
+    font-size: 16px;
+    line-height: 30px;
+}

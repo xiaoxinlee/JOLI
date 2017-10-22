@@ -1,0 +1,141 @@
+main{
+    height: 824px;
+    margin: 62px auto 46px;
+    border: 1px solid #66ded4;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px #eee;
+}
+main .log{
+    height: 162px;
+    background: #000 url("../img/logo2.jpg") no-repeat 471px 18px;
+    border-radius: 10px 10px 0 0;
+}
+main .sign-content{
+    width: 366px;
+    margin: 62px auto 0;
+}
+main .sign-content .sign-method{
+    width: 100%;
+    height: 48px;
+    border: 1px solid #66ded4;
+    line-height: 48px;
+    text-align: center;
+    display: flex;
+}
+main .sign-content .sign-method span{
+    width: 182px;
+    height: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+main .sign-content .sign-body{
+    width: 100%;
+    height: 310px;
+    margin-top: 24px;
+    position: relative;
+    display: flex;
+}
+main .sign-content .sign-body ul{
+    position: absolute;
+    top: 0;
+    left: -112px;
+    font-size: 16px;
+}
+main .sign-content .sign-body ul li{
+    height: 46px;
+    line-height: 46px;
+    margin-top: 20px;
+}
+main .sign-content .sign-body .sign-input{
+    width: 100%;
+}
+main .sign-content .sign-body .sign-input input{
+    width: 100%;
+    height: 46px;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid #66ded4;
+    padding: 5px;
+}
+main .sign-content .sign-body ul li:nth-child(1),
+main .sign-content .sign-body ul li:nth-child(2),
+main .sign-content .sign-body .sign-input>input:nth-child(1),
+main .sign-content .sign-body .sign-input>input:nth-child(2){
+    margin-top: 0;
+}
+main .sign-content .sign-body .sign-input .code,
+main .sign-content .sign-body .sign-input .tel-code{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main .sign-content .sign-body .sign-input .code input,
+main .sign-content .sign-body .sign-input .code img{
+    width: 180px;
+    height: 46px;
+    margin-top: 0;
+}
+main .sign-content .sign-body .sign-input .tel-code input:nth-child(1){
+    width: 217px;
+    margin-top: 0;
+}
+main .sign-content .sign-body .sign-input .tel-code input:nth-child(2){
+    width: 143px;
+    margin-top: 0;
+    background: #66ded4;
+    color: #fff;
+    font-size: 16px;
+}
+main .sign-content>input{
+    display: block;
+    width: 206px;
+    height: 46px;
+    background: #66ded4;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin: 24px auto 0;
+}
+main .sign-content .check{
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin: 28px auto 0;
+}
+main .sign-content .check a{
+    color: #66ded4;
+    text-decoration: underline;
+}
+/*模态框 注册成功*/
+.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.btn-primary:active,
+.btn-primary:focus{
+    background-color: #66ded4;
+    border: none;
+}
+.modal-dialog{
+    margin: 285px auto 0;
+    width: 435px;
+}
+.modal-dialog .modal-header{
+    text-align: center;
+    color: #66ded4;
+}
+.modal-dialog .modal-body{
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+}
+.modal-dialog .modal-footer{
+    text-align: center;
+}
+.modal-dialog .modal-footer .btn-default{
+    color: #fff;
+    border-color: #66ded4;
+    background: #66ded4;
+}
